@@ -22,13 +22,12 @@ basePath: /v1
 tags:
   - name: Campaign report service
     description: >-
-      This is a set of apis for wifi campaign tracking report.
+      This is a set of apis for campaign tracking report.
       [https://docs.adsplay.net](https://docs.adsplay.net/books/business-analyst/page/campaign-reports)
   - name: Inventory report service
-    description: Operations about user
-    externalDocs:
-      description: Find out more about our store
-      url: 'http://swagger.io'
+    description: >-
+      This is a set of apis for inventory report.
+      [https://docs.adsplay.net](https://docs.adsplay.net/books/business-analyst/page/inventory-reports)
 schemes:
   - https
   - http
