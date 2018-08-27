@@ -4,7 +4,7 @@ info:
     This is a API for wifi inventory and campaign report service. You can find
     out more about details at
     [https://docs.adsplay.net](https://docs.adsplay.net/books/business-analyst/page/inventory-reports-%28new%29-2b2).
-    For this sample, you can use the api key `HaiDepTraiCutePhoMaiQue` to test
+    For this sample, you can use the api key `HaiDepTraiCutoPhoMaiQue` to test
     the authorization filters.
   version: 1.0.0
   title: Services Report API
