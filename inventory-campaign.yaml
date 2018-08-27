@@ -1,0 +1,99 @@
+swagger: '2.0'
+info:
+  description: >-
+    This is a API for wifi inventory and campaign report service. You can find
+    out more about details at
+    [https://docs.adsplay.net](https://docs.adsplay.net/books/business-analyst/page/inventory-reports-%28new%29-2b2).
+    For this sample, you can use the api key `HaiDepTraiCutePhoMaiQue` to test
+    the authorization filters.
+  version: 1.0.0
+  title: Services Report API
+  termsOfService: >-
+    https://docs.adsplay.net/books/team-building/page/nh%E1%BA%ADt-k%C3%BD-ninh-thu%E1%BA%ADn-20---21082018
+  contact:
+    name: Contact "Trùm cuối"
+    url: 'https://www.facebook.com/notexit.tran'
+  license:
+    name: Developer and Hero Debugger
+    url: >-
+      https://scontent.fsgn2-4.fna.fbcdn.net/v/t1.0-9/15219455_890279937775419_653552839146382005_n.jpg?_nc_cat=0&oh=02d024fc78139d9d0d9ba2d8cfceaf47&oe=5BFF0503
+host: api-report.adsplay.net
+basePath: /v1
+tags:
+  - name: Campaign report service
+    description: >-
+      This is a set of apis for wifi campaign tracking report.
+      [https://docs.adsplay.net](https://docs.adsplay.net/books/business-analyst/page/campaign-reports)
+  - name: Inventory report service
+    description: Operations about user
+    externalDocs:
+      description: Find out more about our store
+      url: 'http://swagger.io'
+schemes:
+  - https
+  - http
+paths:
+  '/api/tracking_report':
+    get:
+      tags:
+        - Campaign report service
+      summary: Return report base on ID of report type
+      description: Returns a single report
+      operationId: getCampaignById
+      produces:
+        - application/json
+      parameters:
+        - in: header
+          name: ad_type
+          type: string
+          required: true
+          description: 'Ad type of report. </br> Example: wifi-marketing'
+        - in: header
+          name: report_type
+          type: string
+          required: true
+          description: 'Type of report. </br> Example: campaign'
+        - name: id
+          in: header
+          description: 'ID of report type. </br> Example: 111'
+          required: true
+          type: integer
+          format: int64
+        - in: header
+          name: from_date
+          required: true
+          type: string
+          description: 'Start date of report. </br> Example: 2018-08-01'
+        - in: header
+          name: to_date
+          required: true
+          type: string
+          description: 'End date of report.  </br> Example: 2018-08-10'
+        - in: header
+          name: includes
+          default: date
+          type: array
+          items:
+            type: string
+          description: 'Items of report to return. </br> Example: date, platform'
+      responses:
+        '200':
+          description: successful operation
+          # schema:
+          #   $ref: '#/definitions/Pet'
+        '400':
+          description: Invalid header
+        '404':
+          description: Campaign not found
+      security:
+        - api_key: []
+securityDefinitions:
+  api_key:
+    type: apiKey
+    name: api_key
+    in: header
+
+externalDocs:
+  description: Osin also as Labourer
+  url: >-
+    https://scontent.fsgn2-4.fna.fbcdn.net/v/t1.0-9/37139718_1918409454874138_2292701422900215808_n.jpg?_nc_cat=0&oh=01f39095fa5b3133ef96a4c34f4afa67&oe=5BF0B520
