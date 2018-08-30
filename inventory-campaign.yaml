@@ -17,7 +17,7 @@ info:
     name: Developer and Hero Debugger
     url: >-
       https://scontent.fsgn2-4.fna.fbcdn.net/v/t1.0-9/15219455_890279937775419_653552839146382005_n.jpg?_nc_cat=0&oh=02d024fc78139d9d0d9ba2d8cfceaf47&oe=5BFF0503
-host: api-report.adsplay.net
+host: 42.119.252.87:8080
 basePath: /report
 tags:
   - name: Campaign report service
