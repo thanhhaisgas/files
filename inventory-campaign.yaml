@@ -69,6 +69,11 @@ paths:
           type: string
           description: 'End date of report.  </br> Example: 2018-08-10'
         - in: header
+          name: following
+          required: true
+          type: string
+          description: 'Example: Daily'
+        - in: header
           name: includes
           default: date
           type: array
