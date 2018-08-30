@@ -18,7 +18,7 @@ info:
     url: >-
       https://scontent.fsgn2-4.fna.fbcdn.net/v/t1.0-9/15219455_890279937775419_653552839146382005_n.jpg?_nc_cat=0&oh=02d024fc78139d9d0d9ba2d8cfceaf47&oe=5BFF0503
 host: api-report.adsplay.net
-basePath: /v1
+basePath: /report
 tags:
   - name: Campaign report service
     description: >-
@@ -32,7 +32,7 @@ schemes:
   - https
   - http
 paths:
-  '/api/tracking_report':
+  '/':
     get:
       tags:
         - Campaign report service
@@ -86,7 +86,7 @@ paths:
           description: Report not found
       security:
         - api_key: []
-  '/api/inventory_report':
+  '/':
     get:
       tags:
         - Inventory report service
