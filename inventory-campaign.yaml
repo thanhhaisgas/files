@@ -32,42 +32,37 @@ schemes:
   - https
   - http
 paths:
-  '/':
+  '/tracking/vod':
     get:
       tags:
         - Campaign report service
       summary: Return report base on ID of report type
       description: Returns a single report
-      operationId: getCampaignById
+      operationId: getCampaignVodById
       produces:
         - application/json
       parameters:
         - in: header
-          name: ad_type
+          name: report-type
           type: string
           required: true
-          description: 'Ad type of report. </br> Example: wifi-marketing'
-        - in: header
-          name: report_type
-          type: string
-          required: true
-          description: 'Type of report. </br> Example: campaign'
+          description: 'Type of report. </br> Available params: campaign, flight, creative'
         - name: id
           in: header
-          description: 'ID of report type. </br> Example: 111'
+          description: 'ID of report type.</br> Available params: number </br> Example: 111'
           required: true
           type: integer
           format: int64
         - in: header
-          name: from_date
+          name: from-date
           required: true
           type: string
-          description: 'Start date of report. </br> Example: 2018-08-01'
+          description: 'Start date of report.</br> Available format: yyyy-MM-dd </br> Example: 2018-08-01'
         - in: header
-          name: to_date
+          name: to-date
           required: true
           type: string
-          description: 'End date of report.  </br> Example: 2018-08-10'
+          description: 'End date of report. </br> Available format: yyyy-MM-dd </br> Example: 2018-08-10'
         - in: header
           name: following
           required: true
@@ -79,19 +74,191 @@ paths:
           type: array
           items:
             type: string
-          description: 'Items of report to return. </br> Example: date, platform'
+          description: 'Items of report to return. </br> Example: flight, creative'
       responses:
         '200':
           description: successful operation
           # schema:
           #   $ref: '#/definitions/Pet'
-        '400':
-          description: Invalid header
-        '404':
-          description: Report not found
+        '102':
+          description: Invalid report type param    
+        '104':
+          description: Invalid id param  
+        '105':
+          description: Invalid date param
+        '106':
+          description: Invalid following param
+        '969':
+          description: Other Error
       security:
         - api_key: []
-      
+        
+  '/tracking/wifi':
+    get:
+      tags:
+        - Campaign report service
+      summary: Return report base on ID of report type
+      description: Returns a single report
+      operationId: getCampaignWifiById
+      produces:
+        - application/json
+      parameters:
+        - in: header
+          name: report-type
+          type: string
+          required: true
+          description: 'Type of report. </br> Available params: campaign, flight, creative'
+        - name: id
+          in: header
+          description: 'ID of report type.</br> Available params: number </br> Example: 111'
+          required: true
+          type: integer
+          format: int64
+        - in: header
+          name: from-date
+          required: true
+          type: string
+          description: 'Start date of report.</br> Available format: yyyy-MM-dd </br> Example: 2018-08-01'
+        - in: header
+          name: to-date
+          required: true
+          type: string
+          description: 'End date of report. </br> Available format: yyyy-MM-dd </br> Example: 2018-08-10'
+        - in: header
+          name: following
+          required: true
+          type: string
+          description: 'Example: Daily'
+        - in: header
+          name: includes
+          default: date
+          type: array
+          items:
+            type: string
+          description: 'Items of report to return. </br> Example: flight, creative'
+      responses:
+        '200':
+          description: successful operation
+          # schema:
+          #   $ref: '#/definitions/Pet'
+        '102':
+          description: Invalid report type param    
+        '104':
+          description: Invalid id param  
+        '105':
+          description: Invalid date param
+        '106':
+          description: Invalid following param
+        '969':
+          description: Other Error
+      security:
+        - api_key: []
+  '/inventory/fptplay':
+    get:
+      tags:
+        - Inventory report service
+      summary: Return report base on ID of report type
+      description: Returns a single report
+      operationId: getInventoryFptplayById
+      produces:
+        - application/json
+      parameters:
+        - in: header
+          name: report-type
+          type: string
+          required: true
+          description: 'Type of report. </br> Must: inventory'
+        - in: header
+          name: from-date
+          required: true
+          type: string
+          description: 'Start date of report.</br> Available format: yyyy-MM-dd </br> Example: 2018-08-01'
+        - in: header
+          name: to-date
+          required: true
+          type: string
+          description: 'End date of report. </br> Available format: yyyy-MM-dd </br> Example: 2018-08-10'
+        - in: header
+          name: platforms
+          required: false
+          type: string
+          description: 'Filter report by platforms. </br> Example: app, web'
+        - in: header
+          name: category-ids
+          required: false
+          type: string
+          description: 'Filter report by category ids. </br> Example: 52847232169a585a2449c48c'  
+        - in: header
+          name: province-ids
+          required: false
+          type: string
+          description: 'Filter report by province ids. </br> Example: AG, SG'
+      responses:
+        '200':
+          description: successful operation
+          # schema:
+          #   $ref: '#/definitions/Pet'
+        '102':
+          description: Invalid report type param    
+        '105':
+          description: Invalid date param
+        '969':
+          description: Other Error
+      security:
+        - api_key: []    
+  '/inventory/paytv':
+    get:
+      tags:
+        - Inventory report service
+      summary: Return report base on ID of report type
+      description: Returns a single report
+      operationId: getInventoryPaytvById
+      produces:
+        - application/json
+      parameters:
+        - in: header
+          name: report-type
+          type: string
+          required: true
+          description: 'Type of report. </br> Must: inventory'
+        - in: header
+          name: from-date
+          required: true
+          type: string
+          description: 'Start date of report.</br> Available format: yyyy-MM-dd </br> Example: 2018-08-01'
+        - in: header
+          name: to-date
+          required: true
+          type: string
+          description: 'End date of report. </br> Available format: yyyy-MM-dd </br> Example: 2018-08-10'
+        - in: header
+          name: platforms
+          required: false
+          type: string
+          description: 'Filter report by platforms. </br> Example: app, web'
+        - in: header
+          name: category-ids
+          required: false
+          type: string
+          description: 'Filter report by category ids. </br> Example: 52847232169a585a2449c48c'  
+        - in: header
+          name: province-ids
+          required: false
+          type: string
+          description: 'Filter report by province ids. </br> Example: AG, SG'
+      responses:
+        '200':
+          description: successful operation
+          # schema:
+          #   $ref: '#/definitions/Pet'
+        '102':
+          description: Invalid report type param    
+        '105':
+          description: Invalid date param
+        '969':
+          description: Other Error
+      security:
+        - api_key: []    
 securityDefinitions:
   api_key:
     type: apiKey
