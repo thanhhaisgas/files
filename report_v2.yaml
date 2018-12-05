@@ -1,0 +1,397 @@
+swagger: '2.0'
+info:
+  description: >-
+    This is a API for wifi inventory and campaign report service. You can find
+    out more about details at
+    [https://docs.adsplay.net](https://docs.adsplay.net/books/business-analyst/page/inventory-reports-%28new%29-2b2).
+    For this sample, you can use the api key `HaiDepTraiCutoPhoMaiQue` to test
+    the authorization filters.
+  version: 2.0.0
+  title: Services Report API
+  termsOfService: >-
+    https://docs.adsplay.net/books/team-building/page/nh%E1%BA%ADt-k%C3%BD-ninh-thu%E1%BA%ADn-20---21082018
+  contact:
+    name: Contact "Trùm cuối"
+    url: 'https://www.facebook.com/notexit.tran'
+  license:
+    name: Developer and Hero Debugger
+    url: >-
+      https://scontent.fsgn2-4.fna.fbcdn.net/v/t1.0-9/15219455_890279937775419_653552839146382005_n.jpg?_nc_cat=0&oh=02d024fc78139d9d0d9ba2d8cfceaf47&oe=5BFF0503
+host: services.adsplay.net
+basePath: /report
+tags:
+  - name: Campaign report service
+    description: >-
+      This is a set of apis for campaign tracking report.
+      [https://docs.adsplay.net](https://docs.adsplay.net/books/business-analyst/page/campaign-reports)
+  - name: Inventory report service
+    description: >-
+      This is a set of apis for inventory report.
+      [https://docs.adsplay.net](https://docs.adsplay.net/books/business-analyst/page/inventory-reports)
+schemes:
+  - https
+  - http
+paths:
+  '/tracking/fplay':
+    get:
+      tags:
+        - Campaign report service
+      summary: Return report base on ID of report type
+      description: Returns a single report
+      operationId: getCampaignFPlayById
+      produces:
+        - application/json
+      parameters:
+        - in: header
+          name: report-type
+          type: string
+          required: true
+          description: 'Type of report. </br> Available params: campaign, flight, creative'
+        - name: id
+          in: header
+          description: 'ID of report type.</br> Available params: number </br> Example: 111'
+          required: true
+          type: integer
+          format: int64
+        - in: header
+          name: from-date
+          required: true
+          type: string
+          description: 'Start date of report.</br> Available format: yyyy-MM-dd </br> Example: 2018-08-01'
+        - in: header
+          name: to-date
+          required: true
+          type: string
+          description: 'End date of report. </br> Available format: yyyy-MM-dd </br> Example: 2018-08-10'
+        - in: header
+          name: following
+          required: true
+          type: string
+          description: 'Available params: daily, hourly, platform, province'
+        - in: header
+          name: includes
+          type: array
+          items:
+            type: string
+          description: 'Items of report to return. </br> Available params:campaigns, flights, creatives'
+      responses:
+        '200':
+          description: successful operation
+          # schema:
+          #   $ref: '#/definitions/Pet'
+        '102':
+          description: Invalid report type param    
+        '104':
+          description: Invalid id param  
+        '105':
+          description: Invalid date param
+        '106':
+          description: Invalid following param
+        '969':
+          description: Other Error
+      security:
+        - api_key: []
+        
+  '/tracking/paytv':
+    get:
+      tags:
+        - Campaign report service
+      summary: Return report base on ID of report type
+      description: Returns a single report
+      operationId: getCampaignPayTvById
+      produces:
+        - application/json
+      parameters:
+        - in: header
+          name: report-type
+          type: string
+          required: true
+          description: 'Type of report. </br> Available params: campaign, flight, creative'
+        - name: id
+          in: header
+          description: 'ID of report type.</br> Available params: number </br> Example: 111'
+          required: true
+          type: integer
+          format: int64
+        - in: header
+          name: from-date
+          required: true
+          type: string
+          description: 'Start date of report.</br> Available format: yyyy-MM-dd </br> Example: 2018-08-01'
+        - in: header
+          name: to-date
+          required: true
+          type: string
+          description: 'End date of report. </br> Available format: yyyy-MM-dd </br> Example: 2018-08-10'
+        - in: header
+          name: following
+          required: true
+          type: string
+          description: 'Available params: daily, hourly, platform, province'
+        - in: header
+          name: includes
+          type: array
+          items:
+            type: string
+          description: 'Items of report to return. </br> Available params:campaigns, flights, creatives'
+      responses:
+        '200':
+          description: successful operation
+          # schema:
+          #   $ref: '#/definitions/Pet'
+        '102':
+          description: Invalid report type param    
+        '104':
+          description: Invalid id param  
+        '105':
+          description: Invalid date param
+        '106':
+          description: Invalid following param
+        '969':
+          description: Other Error
+      security:
+        - api_key: []
+        
+  '/tracking/wifi':
+    get:
+      tags:
+        - Campaign report service
+      summary: Return report base on ID of report type
+      description: Returns a single report
+      operationId: getCampaignWifiById
+      produces:
+        - application/json
+      parameters:
+        - in: header
+          name: report-type
+          type: string
+          required: true
+          description: 'Type of report. </br> Available params: campaign, flight, creative'
+        - name: id
+          in: header
+          description: 'ID of report type.</br> Available params: number </br> Example: 111'
+          required: true
+          type: integer
+          format: int64
+        - in: header
+          name: from-date
+          required: true
+          type: string
+          description: 'Start date of report.</br> Available format: yyyy-MM-dd </br> Example: 2018-08-01'
+        - in: header
+          name: to-date
+          required: true
+          type: string
+          description: 'End date of report. </br> Available format: yyyy-MM-dd </br> Example: 2018-08-10'
+        - in: header
+          name: following
+          required: true
+          type: string
+          description: 'Available params: daily, hourly, place, zone, access_point, device, province'
+        - in: header
+          name: includes
+          type: array
+          items:
+            type: string
+          description: 'Items of report to return. </br> Available params: campaigns. flights, creatives'
+      responses:
+        '200':
+          description: successful operation
+          # schema:
+          #   $ref: '#/definitions/Pet'
+        '102':
+          description: Invalid report type param    
+        '104':
+          description: Invalid id param  
+        '105':
+          description: Invalid date param
+        '106':
+          description: Invalid following param
+        '969':
+          description: Other Error
+      security:
+        - api_key: []
+  '/inventory/fptplay':
+    get:
+      tags:
+        - Inventory report service
+      summary: Return report base on ID of report type
+      description: Returns a single report
+      operationId: getInventoryFptplayById
+      produces:
+        - application/json
+      parameters:
+        - in: header
+          name: report-type
+          type: string
+          required: true
+          description: 'Type of report. </br> Must: inventory'
+        - in: header
+          name: from-date
+          required: true
+          type: string
+          description: 'Start date of report.</br> Available format: yyyy-MM-dd </br> Example: 2018-08-01'
+        - in: header
+          name: to-date
+          required: true
+          type: string
+          description: 'End date of report. </br> Available format: yyyy-MM-dd </br> Example: 2018-08-10'
+        - in: header
+          name: following
+          required: true
+          type: string
+          description: 'Available params: daily, hourly, platform, category, content, source_provider, province, device'
+        - in: header
+          name: platforms
+          required: false
+          type: string
+          description: 'Filter report by platforms. </br> Available params: app, web, smart_tv'
+        - in: header
+          name: category-ids
+          required: false
+          type: string
+          description: 'Filter report by category ids. </br> Example: 52847232169a585a2449c48c'  
+        - in: header
+          name: province-ids
+          required: false
+          type: string
+          description: 'Filter report by province ids. </br> Example: AG, SG'
+      responses:
+        '200':
+          description: successful operation
+          # schema:
+          #   $ref: '#/definitions/Pet'
+        '102':
+          description: Invalid report type param    
+        '105':
+          description: Invalid date param
+        '969':
+          description: Other Error
+      security:
+        - api_key: []    
+  '/inventory/paytv':
+    get:
+      tags:
+        - Inventory report service
+      summary: Return report base on ID of report type
+      description: Returns a single report
+      operationId: getInventoryPaytvById
+      produces:
+        - application/json
+      parameters:
+        - in: header
+          name: report-type
+          type: string
+          required: true
+          description: 'Type of report. </br> Must: inventory'
+        - in: header
+          name: from-date
+          required: true
+          type: string
+          description: 'Start date of report.</br> Available format: yyyy-MM-dd </br> Example: 2018-08-01'
+        - in: header
+          name: to-date
+          required: true
+          type: string
+          description: 'End date of report. </br> Available format: yyyy-MM-dd </br> Example: 2018-08-10'
+        - in: header
+          name: following
+          required: true
+          type: string
+          description: 'Available params: daily, hourly, platform, category, content, source_provider, province, device'
+        - in: header
+          name: platforms
+          required: false
+          type: string
+          description: 'Filter report by platforms. </br> Available params: app, web, smart_tv'
+        - in: header
+          name: category-ids
+          required: false
+          type: string
+          description: 'Filter report by category ids. </br> Example: 52847232169a585a2449c48c'  
+        - in: header
+          name: province-ids
+          required: false
+          type: string
+          description: 'Filter report by province ids. </br> Example: AG, SG'
+      responses:
+        '200':
+          description: successful operation
+          # schema:
+          #   $ref: '#/definitions/Pet'
+        '102':
+          description: Invalid report type param    
+        '105':
+          description: Invalid date param
+        '969':
+          description: Other Error
+      security:
+        - api_key: []
+  '/inventory/wifi':
+    get:
+      tags:
+        - Inventory report service
+      summary: Return report base on ID of report type
+      description: Returns a single report
+      operationId: getInventoryWifiById
+      produces:
+        - application/json
+      parameters:
+        - in: header
+          name: report-type
+          type: string
+          required: true
+          description: 'Type of report. </br> Must: inventory'
+        - in: header
+          name: from-date
+          required: true
+          type: string
+          description: 'Start date of report.</br> Available format: yyyy-MM-dd </br> Example: 2018-08-01'
+        - in: header
+          name: to-date
+          required: true
+          type: string
+          description: 'End date of report. </br> Available format: yyyy-MM-dd </br> Example: 2018-08-10'
+        - in: header
+          name: following
+          required: true
+          type: string
+          description: 'Available params: daily, hourly, category, place, zone, access_point, device'
+        - in: header
+          name: platforms
+          required: false
+          type: string
+          description: 'Filter report by platforms. </br> Available params: app, web, smart_tv'
+        - in: header
+          name: category-ids
+          required: false
+          type: string
+          description: 'Filter report by category ids. </br> Example: 52847232169a585a2449c48c'  
+        - in: header
+          name: province-ids
+          required: false
+          type: string
+          description: 'Filter report by province ids. </br> Example: AG, SG'
+      responses:
+        '200':
+          description: successful operation
+          # schema:
+          #   $ref: '#/definitions/Pet'
+        '102':
+          description: Invalid report type param    
+        '105':
+          description: Invalid date param
+        '969':
+          description: Other Error
+      security:
+        - api_key: []
+securityDefinitions:
+  api_key:
+    type: apiKey
+    name: api_key
+    in: header
+
+externalDocs:
+  description: Osin also as Labourer
+  url: >-
+    https://scontent.fsgn2-4.fna.fbcdn.net/v/t1.0-9/37139718_1918409454874138_2292701422900215808_n.jpg?_nc_cat=0&oh=01f39095fa5b3133ef96a4c34f4afa67&oe=5BF0B520
