@@ -67,7 +67,7 @@ paths:
           name: following
           required: true
           type: string
-          description: 'Available params: daily, hourly, platform, province'
+          description: 'Available params: daily, hourly, platform, province, campaign, flight, creative'
         - in: header
           name: includes
           type: array
@@ -127,7 +127,7 @@ paths:
           name: following
           required: true
           type: string
-          description: 'Available params: daily, hourly, platform, province'
+          description: 'Available params: daily, hourly, platform, province, campaign, flight, creative'
         - in: header
           name: includes
           type: array
@@ -187,7 +187,7 @@ paths:
           name: following
           required: true
           type: string
-          description: 'Available params: daily, hourly, place, zone, access_point, device, province'
+          description: 'Available params: daily, hourly, place, zone, access_point, device, province, campaign, flight, creative'
         - in: header
           name: includes
           type: array
