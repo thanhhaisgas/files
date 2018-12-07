@@ -28,6 +28,9 @@ tags:
     description: >-
       This is a set of apis for inventory report.
       [https://docs.adsplay.net](https://docs.adsplay.net/books/business-analyst/page/inventory-reports)
+  - name: Additional apis
+    description: >-
+      This is a set of apis base on demand.
 schemes:
   - https
   - http
@@ -381,6 +384,52 @@ paths:
           description: Invalid report type param    
         '105':
           description: Invalid date param
+        '969':
+          description: Other Error
+      security:
+        - api_key: []
+        
+  '/additional/ids':
+    get:
+      tags:
+        - Additional apis
+      summary: Return report base on ID of report type
+      description: Returns a single report
+      operationId: getListId
+      produces:
+        - application/json
+      parameters:
+        - in: header
+          name: report-type
+          type: string
+          required: true
+          description: 'Type of report. </br> Available params: campaign'
+        - in: header
+          name: from-date
+          required: true
+          type: string
+          description: 'Start date of report.</br> Available format: yyyy-MM-dd </br> Example: 2018-08-01'
+        - in: header
+          name: to-date
+          required: true
+          type: string
+          description: 'End date of report. </br> Available format: yyyy-MM-dd </br> Example: 2018-08-10'
+        - in: header
+          name: following
+          required: true
+          type: string
+          description: 'Available params: fplay, paytv, wifi'
+      responses:
+        '200':
+          description: successful operation
+          # schema:
+          #   $ref: '#/definitions/Pet'
+        '102':
+          description: Invalid report type param
+        '105':
+          description: Invalid date param
+        '106':
+          description: Invalid following param
         '969':
           description: Other Error
       security:
