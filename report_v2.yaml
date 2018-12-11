@@ -17,8 +17,8 @@ info:
     name: Developer and Hero Debugger
     url: >-
       https://scontent.fsgn2-4.fna.fbcdn.net/v/t1.0-9/15219455_890279937775419_653552839146382005_n.jpg?_nc_cat=0&oh=02d024fc78139d9d0d9ba2d8cfceaf47&oe=5BFF0503
-host: 42.119.252.87:8080
-basePath: /
+host: services.adsplay.net
+basePath: /report
 tags:
   - name: Campaign report service
     description: >-
@@ -375,6 +375,21 @@ paths:
           required: false
           type: string
           description: 'Filter report by province ids. </br> Example: AG, SG'
+        - in: header
+          name: place-ids
+          required: false
+          type: string
+          description: 'Filter report by place ids. </br> Example: 300, 403'
+        - in: header
+          name: zone-ids
+          required: false
+          type: string
+          description: 'Filter report by zone ids. </br> Example: 300, 403'
+        - in: header
+          name: ap-mac-address
+          required: false
+          type: string
+          description: 'Filter report by mac address. </br> Example: fc:ec:da:b3:81:7b'
       responses:
         '200':
           description: successful operation
