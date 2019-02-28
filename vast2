@@ -1,0 +1,116 @@
+<VAST xmlns:MM="https://api.mediamind.com/V1/DataContracts" version="3.0">
+<Ad id="27429072">
+<InLine>
+<AdSystem>
+<![CDATA[ MediaMind ]]>
+</AdSystem>
+<AdTitle>
+<![CDATA[ Phosphalugel Feb-Mar ]]>
+</AdTitle>
+<Description>
+<![CDATA[ Phosphalugel Feb-Mar ]]>
+</Description>
+<Impression id="Impression">
+<![CDATA[
+https://bs.serving-sys.com/Serving?cn=display&c=24&pl=VAST&optOut=0&pos=9621&c=24&ai=57351541&pluid=64&ord=1483454246614942643&dg=11492904&sdg=17478715&ta=-1&usercookie=u2=6c12e8eb-dfe7-48c8-bf6f-2e39e54f6694&sessionid=7307917711107038727&pcp=&vurl=
+]]>
+</Impression>
+<Impression id="AgencyImpTrackingURL_1">
+<![CDATA[
+https://g.jp.miaozhen.com/x/k=3005483&p=6qgQn&dx=0&rt=2&ns=__IP__&ni=__IESID__&v=__LOC__&tr=__REQUESTID__&dv=20&mo=__OS__&m0=__OPENUDID__&m0a=__DUID__&m1=__ANDROIDID1__&m1a=__ANDROIDID__&m2=__IMEI__&m6=__MAC1__&m6a=__MAC__&m4=__AAID__&m5=__IDFA__&o=
+]]>
+</Impression>
+<Creatives>
+<Creative id="57351541" adid="57351541" sequence="1">
+<Linear skipoffset="00:00:06">
+<Duration>00:00:15</Duration>
+<TrackingEvents>
+<Tracking event="creativeView">
+<![CDATA[
+https://bs.serving-sys.com/Serving/adServer.bs?cn=isi&pl=VAST&optOut=0&interactionsStr=57351541%7E%7E64%5ECreativeView.Linear.384353454%7E0%7E0%7E1%7E0%7E0%7E384353454%7E0&pos=9621&ebRandom=1483454246614942643&dg=11492904&sdg=17478715&ta=-1&usercookie=u2=6c12e8eb-dfe7-48c8-bf6f-2e39e54f6694&sessionid=7307917711107038727
+]]>
+</Tracking>
+<Tracking event="creativeView">
+<![CDATA[
+https://bs.serving-sys.com/Serving/adServer.bs?cn=isi&pl=VAST&optOut=0&interactionsStr=57351541%7E%7E64%5Eadstart%7E0%7E0%7E1%7E0%7E2%7E384353454%7E0&pos=9621&ebRandom=1483454246614942643&dg=11492904&sdg=17478715&ta=-1&usercookie=u2=6c12e8eb-dfe7-48c8-bf6f-2e39e54f6694&sessionid=7307917711107038727
+]]>
+</Tracking>
+<Tracking event="start">
+<![CDATA[
+https://bs.serving-sys.com/Serving/adServer.bs?cn=isi&pl=VAST&optOut=0&interactionsStr=57351541%7E%7E64%5EebVideoStarted%7E0%7E0%7E1%7E0%7E1%7E384353454%7E0&pos=9621&ebRandom=1483454246614942643&dg=11492904&sdg=17478715&ta=-1&usercookie=u2=6c12e8eb-dfe7-48c8-bf6f-2e39e54f6694&sessionid=7307917711107038727
+]]>
+</Tracking>
+<Tracking event="skip">
+<![CDATA[
+https://bs.serving-sys.com/Serving/adServer.bs?cn=isi&pl=VAST&optOut=0&interactionsStr=57351541%7E%7E64%5EebSkip%7E0%7E0%7E1%7E0%7E2%7E384353454%7E0&pos=9621&ebRandom=1483454246614942643&dg=11492904&sdg=17478715&ta=-1&usercookie=u2=6c12e8eb-dfe7-48c8-bf6f-2e39e54f6694&sessionid=7307917711107038727
+]]>
+</Tracking>
+<Tracking event="progress" offset="00:00:30.000">
+<![CDATA[
+https://bs.serving-sys.com/Serving/adServer.bs?cn=isi&pl=VAST&optOut=0&interactionsStr=57351541%7E%7E64%5EebEngagedView%7E0%7E0%7E1%7E0%7E2%7E384353454%7E0&pos=9621&ebRandom=1483454246614942643&dg=11492904&sdg=17478715&ta=-1&usercookie=u2=6c12e8eb-dfe7-48c8-bf6f-2e39e54f6694&sessionid=7307917711107038727
+]]>
+</Tracking>
+<Tracking event="firstQuartile">
+<![CDATA[
+https://bs.serving-sys.com/Serving/adServer.bs?cn=isi&pl=VAST&optOut=0&interactionsStr=57351541%7E%7E64%5Eeb25Per_Played%7E0%7E0%7E1%7E0%7E1%7E384353454%7E0&pos=9621&ebRandom=1483454246614942643&dg=11492904&sdg=17478715&ta=-1&usercookie=u2=6c12e8eb-dfe7-48c8-bf6f-2e39e54f6694&sessionid=7307917711107038727
+]]>
+</Tracking>
+<Tracking event="midpoint">
+<![CDATA[
+https://bs.serving-sys.com/Serving/adServer.bs?cn=isi&pl=VAST&optOut=0&interactionsStr=57351541%7E%7E64%5Eeb50Per_Played%7E0%7E0%7E1%7E0%7E1%7E384353454%7E0&pos=9621&ebRandom=1483454246614942643&dg=11492904&sdg=17478715&ta=-1&usercookie=u2=6c12e8eb-dfe7-48c8-bf6f-2e39e54f6694&sessionid=7307917711107038727
+]]>
+</Tracking>
+<Tracking event="thirdQuartile">
+<![CDATA[
+https://bs.serving-sys.com/Serving/adServer.bs?cn=isi&pl=VAST&optOut=0&interactionsStr=57351541%7E%7E64%5Eeb75Per_Played%7E0%7E0%7E1%7E0%7E1%7E384353454%7E0&pos=9621&ebRandom=1483454246614942643&dg=11492904&sdg=17478715&ta=-1&usercookie=u2=6c12e8eb-dfe7-48c8-bf6f-2e39e54f6694&sessionid=7307917711107038727
+]]>
+</Tracking>
+<Tracking event="complete">
+<![CDATA[
+https://bs.serving-sys.com/Serving/adServer.bs?cn=isi&pl=VAST&optOut=0&interactionsStr=57351541%7E%7E64%5EebVideoFullPlay%7E0%7E0%7E1%7E0%7E1%7E384353454%7E0&pos=9621&ebRandom=1483454246614942643&dg=11492904&sdg=17478715&ta=-1&usercookie=u2=6c12e8eb-dfe7-48c8-bf6f-2e39e54f6694&sessionid=7307917711107038727
+]]>
+</Tracking>
+<Tracking event="mute">
+<![CDATA[
+https://bs.serving-sys.com/Serving/adServer.bs?cn=isi&pl=VAST&optOut=0&interactionsStr=57351541%7E%7E64%5EebVideoMute%7E0%7E0%7E1%7E1%7E1%7E384353454%7E0&pos=9621&ebRandom=1483454246614942643&dg=11492904&sdg=17478715&ta=-1&usercookie=u2=6c12e8eb-dfe7-48c8-bf6f-2e39e54f6694&sessionid=7307917711107038727
+]]>
+</Tracking>
+<Tracking event="unmute">
+<![CDATA[
+https://bs.serving-sys.com/Serving/adServer.bs?cn=isi&pl=VAST&optOut=0&interactionsStr=57351541%7E%7E64%5EebVideoUnmute%7E0%7E0%7E1%7E1%7E1%7E384353454%7E0&pos=9621&ebRandom=1483454246614942643&dg=11492904&sdg=17478715&ta=-1&usercookie=u2=6c12e8eb-dfe7-48c8-bf6f-2e39e54f6694&sessionid=7307917711107038727
+]]>
+</Tracking>
+<Tracking event="pause">
+<![CDATA[
+https://bs.serving-sys.com/Serving/adServer.bs?cn=isi&pl=VAST&optOut=0&interactionsStr=57351541%7E%7E64%5EebVideoPause%7E0%7E0%7E1%7E1%7E1%7E384353454%7E0&pos=9621&ebRandom=1483454246614942643&dg=11492904&sdg=17478715&ta=-1&usercookie=u2=6c12e8eb-dfe7-48c8-bf6f-2e39e54f6694&sessionid=7307917711107038727
+]]>
+</Tracking>
+<Tracking event="fullscreen">
+<![CDATA[
+https://bs.serving-sys.com/Serving/adServer.bs?cn=isi&pl=VAST&optOut=0&interactionsStr=57351541%7E%7E64%5EebFSStart%7E0%7E0%7E1%7E1%7E1%7E384353454%7E0&pos=9621&ebRandom=1483454246614942643&dg=11492904&sdg=17478715&ta=-1&usercookie=u2=6c12e8eb-dfe7-48c8-bf6f-2e39e54f6694&sessionid=7307917711107038727
+]]>
+</Tracking>
+</TrackingEvents>
+<VideoClicks>
+<ClickThrough>
+<![CDATA[
+https://bs.serving-sys.com/Serving/adServer.bs?cn=isi&pl=VAST&optOut=0&interactionsStr=57351541%7E%7E64%5EClick.Linear.384353454%7E0%7E1%7E1%7E0%7E0%7E384353454%7E0&pos=9621&ebRandom=1483454246614942643&dg=11492904&sdg=17478715&ta=-1&usercookie=u2=6c12e8eb-dfe7-48c8-bf6f-2e39e54f6694&sessionid=7307917711107038727&rtu=$$https://www.phosphalugel.com.vn/?utm_source=AmbientVN&utm_medium=Video15s&utm_campaign=PhosphalugeliTVC&utm_term=FebMar2018$$
+]]>
+</ClickThrough>
+</VideoClicks>
+<MediaFiles>
+<MediaFile id="384353454" height="360" width="640" bitrate="845" type="video/mp4" delivery="progressive" maintainAspectRatio="true" scalable="true">
+<![CDATA[
+https://ds-vn.serving-sys.com/BurstingRes/Site-33765/Type-16/312c7f67-466e-4a99-9667-6d2f334e3c32.mp4
+]]>
+</MediaFile>
+</MediaFiles>
+</Linear>
+</Creative>
+<Creative id="57351541" adid="57351541" sequence="1">
+<CompanionAds/>
+</Creative>
+</Creatives>
+</InLine>
+</Ad>
+</VAST>2
