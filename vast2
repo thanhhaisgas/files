@@ -1,116 +1,834 @@
-<VAST xmlns:MM="https://api.mediamind.com/V1/DataContracts" version="3.0">
-<Ad id="27429072">
-<InLine>
-<AdSystem>
-<![CDATA[ MediaMind ]]>
-</AdSystem>
+<vmap:VMAP xmlns:vmap="http://www.iab.net/videosuite/vmap" version="1.0">
+<vmap:AdBreak timeOffset="start" breakType="linear" breakId="preroll">
+<vmap:AdSource id="1190201" allowMultipleAds="false" followRedirects="true">
+<vmap:VASTAdData>
+<VAST version="2.0">
+<Ad id="1190201">
+<Wrapper>
+<AdSystem version="1.0">AdsPLAY</AdSystem>
 <AdTitle>
-<![CDATA[ Phosphalugel Feb-Mar ]]>
+<![CDATA[ FPT Play_NK Media_TVC_skip 5s_2019_SmartTV Android ]]>
 </AdTitle>
-<Description>
-<![CDATA[ Phosphalugel Feb-Mar ]]>
-</Description>
-<Impression id="Impression">
+<VASTAdTagURI>
 <![CDATA[
-https://bs.serving-sys.com/Serving?cn=display&c=24&pl=VAST&optOut=0&pos=9621&c=24&ai=57351541&pluid=64&ord=1483454246614942643&dg=11492904&sdg=17478715&ta=-1&usercookie=u2=6c12e8eb-dfe7-48c8-bf6f-2e39e54f6694&sessionid=7307917711107038727&pcp=&vurl=
+https://vast.adsafeprotected.com/vast/fwjsvid/st/217880/31413859/skeleton.js?includeFlash=false&originalVast=https://ads-cdn.fptplay.net/static/banner/2019/03/064ab7da8fc27922eb696c5e7aa28e9b_8508.xml
 ]]>
-</Impression>
-<Impression id="AgencyImpTrackingURL_1">
+</VASTAdTagURI>
+<Error>
 <![CDATA[
-https://g.jp.miaozhen.com/x/k=3005483&p=6qgQn&dx=0&rt=2&ns=__IP__&ni=__IESID__&v=__LOC__&tr=__REQUESTID__&dv=20&mo=__OS__&m0=__OPENUDID__&m0a=__DUID__&m1=__ANDROIDID1__&m1a=__ANDROIDID__&m2=__IMEI__&m6=__MAC1__&m6a=__MAC__&m4=__AAID__&m5=__IDFA__&o=
+https://log.adsplay.net/track/videoads_v2?event=error&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0&errorCode=[ERRORCODE]
+]]>
+</Error>
+<Impression>
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=impression&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
 ]]>
 </Impression>
 <Creatives>
-<Creative id="57351541" adid="57351541" sequence="1">
-<Linear skipoffset="00:00:06">
-<Duration>00:00:15</Duration>
+<Creative sequence="1" id="1190201">
+<Linear skipoffset="00:00:05">
 <TrackingEvents>
 <Tracking event="creativeView">
 <![CDATA[
-https://bs.serving-sys.com/Serving/adServer.bs?cn=isi&pl=VAST&optOut=0&interactionsStr=57351541%7E%7E64%5ECreativeView.Linear.384353454%7E0%7E0%7E1%7E0%7E0%7E384353454%7E0&pos=9621&ebRandom=1483454246614942643&dg=11492904&sdg=17478715&ta=-1&usercookie=u2=6c12e8eb-dfe7-48c8-bf6f-2e39e54f6694&sessionid=7307917711107038727
-]]>
-</Tracking>
-<Tracking event="creativeView">
-<![CDATA[
-https://bs.serving-sys.com/Serving/adServer.bs?cn=isi&pl=VAST&optOut=0&interactionsStr=57351541%7E%7E64%5Eadstart%7E0%7E0%7E1%7E0%7E2%7E384353454%7E0&pos=9621&ebRandom=1483454246614942643&dg=11492904&sdg=17478715&ta=-1&usercookie=u2=6c12e8eb-dfe7-48c8-bf6f-2e39e54f6694&sessionid=7307917711107038727
+https://log.adsplay.net/track/videoads_v2?event=creativeView&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
 ]]>
 </Tracking>
 <Tracking event="start">
 <![CDATA[
-https://bs.serving-sys.com/Serving/adServer.bs?cn=isi&pl=VAST&optOut=0&interactionsStr=57351541%7E%7E64%5EebVideoStarted%7E0%7E0%7E1%7E0%7E1%7E384353454%7E0&pos=9621&ebRandom=1483454246614942643&dg=11492904&sdg=17478715&ta=-1&usercookie=u2=6c12e8eb-dfe7-48c8-bf6f-2e39e54f6694&sessionid=7307917711107038727
-]]>
-</Tracking>
-<Tracking event="skip">
-<![CDATA[
-https://bs.serving-sys.com/Serving/adServer.bs?cn=isi&pl=VAST&optOut=0&interactionsStr=57351541%7E%7E64%5EebSkip%7E0%7E0%7E1%7E0%7E2%7E384353454%7E0&pos=9621&ebRandom=1483454246614942643&dg=11492904&sdg=17478715&ta=-1&usercookie=u2=6c12e8eb-dfe7-48c8-bf6f-2e39e54f6694&sessionid=7307917711107038727
-]]>
-</Tracking>
-<Tracking event="progress" offset="00:00:30.000">
-<![CDATA[
-https://bs.serving-sys.com/Serving/adServer.bs?cn=isi&pl=VAST&optOut=0&interactionsStr=57351541%7E%7E64%5EebEngagedView%7E0%7E0%7E1%7E0%7E2%7E384353454%7E0&pos=9621&ebRandom=1483454246614942643&dg=11492904&sdg=17478715&ta=-1&usercookie=u2=6c12e8eb-dfe7-48c8-bf6f-2e39e54f6694&sessionid=7307917711107038727
+https://log.adsplay.net/track/videoads_v2?event=played0&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
 ]]>
 </Tracking>
 <Tracking event="firstQuartile">
 <![CDATA[
-https://bs.serving-sys.com/Serving/adServer.bs?cn=isi&pl=VAST&optOut=0&interactionsStr=57351541%7E%7E64%5Eeb25Per_Played%7E0%7E0%7E1%7E0%7E1%7E384353454%7E0&pos=9621&ebRandom=1483454246614942643&dg=11492904&sdg=17478715&ta=-1&usercookie=u2=6c12e8eb-dfe7-48c8-bf6f-2e39e54f6694&sessionid=7307917711107038727
+https://log.adsplay.net/track/videoads_v2?event=played25&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
 ]]>
 </Tracking>
 <Tracking event="midpoint">
 <![CDATA[
-https://bs.serving-sys.com/Serving/adServer.bs?cn=isi&pl=VAST&optOut=0&interactionsStr=57351541%7E%7E64%5Eeb50Per_Played%7E0%7E0%7E1%7E0%7E1%7E384353454%7E0&pos=9621&ebRandom=1483454246614942643&dg=11492904&sdg=17478715&ta=-1&usercookie=u2=6c12e8eb-dfe7-48c8-bf6f-2e39e54f6694&sessionid=7307917711107038727
+https://log.adsplay.net/track/videoads_v2?event=played50&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
 ]]>
 </Tracking>
 <Tracking event="thirdQuartile">
 <![CDATA[
-https://bs.serving-sys.com/Serving/adServer.bs?cn=isi&pl=VAST&optOut=0&interactionsStr=57351541%7E%7E64%5Eeb75Per_Played%7E0%7E0%7E1%7E0%7E1%7E384353454%7E0&pos=9621&ebRandom=1483454246614942643&dg=11492904&sdg=17478715&ta=-1&usercookie=u2=6c12e8eb-dfe7-48c8-bf6f-2e39e54f6694&sessionid=7307917711107038727
+https://log.adsplay.net/track/videoads_v2?event=played75&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
 ]]>
 </Tracking>
 <Tracking event="complete">
 <![CDATA[
-https://bs.serving-sys.com/Serving/adServer.bs?cn=isi&pl=VAST&optOut=0&interactionsStr=57351541%7E%7E64%5EebVideoFullPlay%7E0%7E0%7E1%7E0%7E1%7E384353454%7E0&pos=9621&ebRandom=1483454246614942643&dg=11492904&sdg=17478715&ta=-1&usercookie=u2=6c12e8eb-dfe7-48c8-bf6f-2e39e54f6694&sessionid=7307917711107038727
+https://log.adsplay.net/track/videoads_v2?event=played100&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
 ]]>
 </Tracking>
-<Tracking event="mute">
+<Tracking event="close">
 <![CDATA[
-https://bs.serving-sys.com/Serving/adServer.bs?cn=isi&pl=VAST&optOut=0&interactionsStr=57351541%7E%7E64%5EebVideoMute%7E0%7E0%7E1%7E1%7E1%7E384353454%7E0&pos=9621&ebRandom=1483454246614942643&dg=11492904&sdg=17478715&ta=-1&usercookie=u2=6c12e8eb-dfe7-48c8-bf6f-2e39e54f6694&sessionid=7307917711107038727
-]]>
-</Tracking>
-<Tracking event="unmute">
-<![CDATA[
-https://bs.serving-sys.com/Serving/adServer.bs?cn=isi&pl=VAST&optOut=0&interactionsStr=57351541%7E%7E64%5EebVideoUnmute%7E0%7E0%7E1%7E1%7E1%7E384353454%7E0&pos=9621&ebRandom=1483454246614942643&dg=11492904&sdg=17478715&ta=-1&usercookie=u2=6c12e8eb-dfe7-48c8-bf6f-2e39e54f6694&sessionid=7307917711107038727
+https://log.adsplay.net/track/videoads_v2?event=close&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
 ]]>
 </Tracking>
 <Tracking event="pause">
 <![CDATA[
-https://bs.serving-sys.com/Serving/adServer.bs?cn=isi&pl=VAST&optOut=0&interactionsStr=57351541%7E%7E64%5EebVideoPause%7E0%7E0%7E1%7E1%7E1%7E384353454%7E0&pos=9621&ebRandom=1483454246614942643&dg=11492904&sdg=17478715&ta=-1&usercookie=u2=6c12e8eb-dfe7-48c8-bf6f-2e39e54f6694&sessionid=7307917711107038727
+https://log.adsplay.net/track/videoads_v2?event=paused&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
 ]]>
 </Tracking>
-<Tracking event="fullscreen">
+<Tracking event="mute">
 <![CDATA[
-https://bs.serving-sys.com/Serving/adServer.bs?cn=isi&pl=VAST&optOut=0&interactionsStr=57351541%7E%7E64%5EebFSStart%7E0%7E0%7E1%7E1%7E1%7E384353454%7E0&pos=9621&ebRandom=1483454246614942643&dg=11492904&sdg=17478715&ta=-1&usercookie=u2=6c12e8eb-dfe7-48c8-bf6f-2e39e54f6694&sessionid=7307917711107038727
+https://log.adsplay.net/track/videoads_v2?event=mute&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Tracking>
+<Tracking event="unmute">
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=unmute&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Tracking>
+<Tracking event="skip">
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=skip&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
 ]]>
 </Tracking>
 </TrackingEvents>
 <VideoClicks>
 <ClickThrough>
-<![CDATA[
-https://bs.serving-sys.com/Serving/adServer.bs?cn=isi&pl=VAST&optOut=0&interactionsStr=57351541%7E%7E64%5EClick.Linear.384353454%7E0%7E1%7E1%7E0%7E0%7E384353454%7E0&pos=9621&ebRandom=1483454246614942643&dg=11492904&sdg=17478715&ta=-1&usercookie=u2=6c12e8eb-dfe7-48c8-bf6f-2e39e54f6694&sessionid=7307917711107038727&rtu=$$https://www.phosphalugel.com.vn/?utm_source=AmbientVN&utm_medium=Video15s&utm_campaign=PhosphalugeliTVC&utm_term=FebMar2018$$
-]]>
+<![CDATA[ null ]]>
 </ClickThrough>
-</VideoClicks>
-<MediaFiles>
-<MediaFile id="384353454" height="360" width="640" bitrate="845" type="video/mp4" delivery="progressive" maintainAspectRatio="true" scalable="true">
+<ClickTracking>
 <![CDATA[
-https://ds-vn.serving-sys.com/BurstingRes/Site-33765/Type-16/312c7f67-466e-4a99-9667-6d2f334e3c32.mp4
+https://log.adsplay.net/track/videoads_v2?event=click&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
 ]]>
-</MediaFile>
-</MediaFiles>
+</ClickTracking>
+</VideoClicks>
 </Linear>
 </Creative>
-<Creative id="57351541" adid="57351541" sequence="1">
-<CompanionAds/>
+</Creatives>
+</Wrapper>
+</Ad>
+</VAST>
+</vmap:VASTAdData>
+</vmap:AdSource>
+</vmap:AdBreak>
+<vmap:AdBreak timeOffset="00:00:10" breakType="linear" breakId="midroll">
+<vmap:AdSource id="1190201" allowMultipleAds="false" followRedirects="true">
+<vmap:VASTAdData>
+<VAST version="2.0">
+<Ad id="1190201">
+<Wrapper>
+<AdSystem version="1.0">AdsPLAY</AdSystem>
+<AdTitle>
+<![CDATA[ FPT Play_NK Media_TVC_skip 5s_2019_SmartTV Android ]]>
+</AdTitle>
+<VASTAdTagURI>
+<![CDATA[
+https://vast.adsafeprotected.com/vast/fwjsvid/st/217880/31413859/skeleton.js?includeFlash=false&originalVast=https://ads-cdn.fptplay.net/static/banner/2019/03/064ab7da8fc27922eb696c5e7aa28e9b_8508.xml
+]]>
+</VASTAdTagURI>
+<Error>
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=error&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0&errorCode=[ERRORCODE]
+]]>
+</Error>
+<Impression>
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=impression&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Impression>
+<Creatives>
+<Creative sequence="1" id="1190201">
+<Linear skipoffset="00:00:05">
+<TrackingEvents>
+<Tracking event="creativeView">
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=creativeView&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Tracking>
+<Tracking event="start">
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=played0&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Tracking>
+<Tracking event="firstQuartile">
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=played25&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Tracking>
+<Tracking event="midpoint">
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=played50&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Tracking>
+<Tracking event="thirdQuartile">
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=played75&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Tracking>
+<Tracking event="complete">
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=played100&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Tracking>
+<Tracking event="close">
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=close&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Tracking>
+<Tracking event="pause">
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=paused&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Tracking>
+<Tracking event="mute">
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=mute&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Tracking>
+<Tracking event="unmute">
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=unmute&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Tracking>
+<Tracking event="skip">
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=skip&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Tracking>
+</TrackingEvents>
+<VideoClicks>
+<ClickThrough>
+<![CDATA[ null ]]>
+</ClickThrough>
+<ClickTracking>
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=click&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</ClickTracking>
+</VideoClicks>
+</Linear>
 </Creative>
 </Creatives>
-</InLine>
+</Wrapper>
 </Ad>
-</VAST>2
+</VAST>
+</vmap:VASTAdData>
+</vmap:AdSource>
+</vmap:AdBreak>
+<vmap:AdBreak timeOffset="00:00:20" breakType="linear" breakId="midroll">
+<vmap:AdSource id="1190201" allowMultipleAds="false" followRedirects="true">
+<vmap:VASTAdData>
+<VAST version="2.0">
+<Ad id="1190201">
+<Wrapper>
+<AdSystem version="1.0">AdsPLAY</AdSystem>
+<AdTitle>
+<![CDATA[ FPT Play_NK Media_TVC_skip 5s_2019_SmartTV Android ]]>
+</AdTitle>
+<VASTAdTagURI>
+<![CDATA[
+https://vast.adsafeprotected.com/vast/fwjsvid/st/217880/31413859/skeleton.js?includeFlash=false&originalVast=https://ads-cdn.fptplay.net/static/banner/2019/03/064ab7da8fc27922eb696c5e7aa28e9b_8508.xml
+]]>
+</VASTAdTagURI>
+<Error>
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=error&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0&errorCode=[ERRORCODE]
+]]>
+</Error>
+<Impression>
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=impression&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Impression>
+<Creatives>
+<Creative sequence="1" id="1190201">
+<Linear skipoffset="00:00:05">
+<TrackingEvents>
+<Tracking event="creativeView">
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=creativeView&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Tracking>
+<Tracking event="start">
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=played0&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Tracking>
+<Tracking event="firstQuartile">
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=played25&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Tracking>
+<Tracking event="midpoint">
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=played50&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Tracking>
+<Tracking event="thirdQuartile">
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=played75&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Tracking>
+<Tracking event="complete">
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=played100&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Tracking>
+<Tracking event="close">
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=close&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Tracking>
+<Tracking event="pause">
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=paused&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Tracking>
+<Tracking event="mute">
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=mute&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Tracking>
+<Tracking event="unmute">
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=unmute&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Tracking>
+<Tracking event="skip">
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=skip&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Tracking>
+</TrackingEvents>
+<VideoClicks>
+<ClickThrough>
+<![CDATA[ null ]]>
+</ClickThrough>
+<ClickTracking>
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=click&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</ClickTracking>
+</VideoClicks>
+</Linear>
+</Creative>
+</Creatives>
+</Wrapper>
+</Ad>
+</VAST>
+</vmap:VASTAdData>
+</vmap:AdSource>
+</vmap:AdBreak>
+<vmap:AdBreak timeOffset="01:00:00" breakType="linear" breakId="midroll">
+<vmap:AdSource id="1190201" allowMultipleAds="false" followRedirects="true">
+<vmap:VASTAdData>
+<VAST version="2.0">
+<Ad id="1190201">
+<Wrapper>
+<AdSystem version="1.0">AdsPLAY</AdSystem>
+<AdTitle>
+<![CDATA[ FPT Play_NK Media_TVC_skip 5s_2019_SmartTV Android ]]>
+</AdTitle>
+<VASTAdTagURI>
+<![CDATA[
+https://pubads.g.doubleclick.net/gampad/live/ads?iu=/75652760/FPT&description_url=[placeholder]&env=vp&impl=s&correlator=1552547111512&tfcd=0&npa=0&gdfp_req=1&output=vast&sz=1920x1080&cust_params=age%3D18-24%2C25-34%2C35-44%26gender%3Dfemale%2Cmale&min_ad_duration=1000&max_ad_duration=15000&unviewed_position_start=1
+]]>
+</VASTAdTagURI>
+<Error>
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=error&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0&errorCode=[ERRORCODE]
+]]>
+</Error>
+<Impression>
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=impression&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Impression>
+<Creatives>
+<Creative sequence="1" id="1190201">
+<Linear skipoffset="00:00:05">
+<TrackingEvents>
+<Tracking event="creativeView">
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=creativeView&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Tracking>
+<Tracking event="start">
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=played0&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Tracking>
+<Tracking event="firstQuartile">
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=played25&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Tracking>
+<Tracking event="midpoint">
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=played50&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Tracking>
+<Tracking event="thirdQuartile">
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=played75&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Tracking>
+<Tracking event="complete">
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=played100&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Tracking>
+<Tracking event="close">
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=close&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Tracking>
+<Tracking event="pause">
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=paused&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Tracking>
+<Tracking event="mute">
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=mute&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Tracking>
+<Tracking event="unmute">
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=unmute&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Tracking>
+<Tracking event="skip">
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=skip&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Tracking>
+</TrackingEvents>
+<VideoClicks>
+<ClickThrough>
+<![CDATA[ null ]]>
+</ClickThrough>
+<ClickTracking>
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=click&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</ClickTracking>
+</VideoClicks>
+</Linear>
+</Creative>
+</Creatives>
+</Wrapper>
+</Ad>
+</VAST>
+</vmap:VASTAdData>
+</vmap:AdSource>
+</vmap:AdBreak>
+<vmap:AdBreak timeOffset="01:20:00" breakType="linear" breakId="midroll">
+<vmap:AdSource id="1190201" allowMultipleAds="false" followRedirects="true">
+<vmap:VASTAdData>
+<VAST version="2.0">
+<Ad id="1190201">
+<Wrapper>
+<AdSystem version="1.0">AdsPLAY</AdSystem>
+<AdTitle>
+<![CDATA[ FPT Play_NK Media_TVC_skip 5s_2019_SmartTV Android ]]>
+</AdTitle>
+<VASTAdTagURI>
+<![CDATA[
+https://pubads.g.doubleclick.net/gampad/live/ads?iu=/75652760/FPT&description_url=[placeholder]&env=vp&impl=s&correlator=1552547111512&tfcd=0&npa=0&gdfp_req=1&output=vast&sz=1920x1080&cust_params=age%3D18-24%2C25-34%2C35-44%26gender%3Dfemale%2Cmale&min_ad_duration=1000&max_ad_duration=15000&unviewed_position_start=1
+]]>
+</VASTAdTagURI>
+<Error>
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=error&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0&errorCode=[ERRORCODE]
+]]>
+</Error>
+<Impression>
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=impression&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Impression>
+<Creatives>
+<Creative sequence="1" id="1190201">
+<Linear skipoffset="00:00:05">
+<TrackingEvents>
+<Tracking event="creativeView">
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=creativeView&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Tracking>
+<Tracking event="start">
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=played0&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Tracking>
+<Tracking event="firstQuartile">
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=played25&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Tracking>
+<Tracking event="midpoint">
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=played50&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Tracking>
+<Tracking event="thirdQuartile">
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=played75&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Tracking>
+<Tracking event="complete">
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=played100&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Tracking>
+<Tracking event="close">
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=close&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Tracking>
+<Tracking event="pause">
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=paused&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Tracking>
+<Tracking event="mute">
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=mute&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Tracking>
+<Tracking event="unmute">
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=unmute&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Tracking>
+<Tracking event="skip">
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=skip&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Tracking>
+</TrackingEvents>
+<VideoClicks>
+<ClickThrough>
+<![CDATA[ null ]]>
+</ClickThrough>
+<ClickTracking>
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=click&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</ClickTracking>
+</VideoClicks>
+</Linear>
+</Creative>
+</Creatives>
+</Wrapper>
+</Ad>
+</VAST>
+</vmap:VASTAdData>
+</vmap:AdSource>
+</vmap:AdBreak>
+<vmap:AdBreak timeOffset="01:40:00" breakType="linear" breakId="midroll">
+<vmap:AdSource id="1190201" allowMultipleAds="false" followRedirects="true">
+<vmap:VASTAdData>
+<VAST version="2.0">
+<Ad id="1190201">
+<Wrapper>
+<AdSystem version="1.0">AdsPLAY</AdSystem>
+<AdTitle>
+<![CDATA[ FPT Play_NK Media_TVC_skip 5s_2019_SmartTV Android ]]>
+</AdTitle>
+<VASTAdTagURI>
+<![CDATA[
+https://pubads.g.doubleclick.net/gampad/live/ads?iu=/75652760/FPT&description_url=[placeholder]&env=vp&impl=s&correlator=1552547111512&tfcd=0&npa=0&gdfp_req=1&output=vast&sz=1920x1080&cust_params=age%3D18-24%2C25-34%2C35-44%26gender%3Dfemale%2Cmale&min_ad_duration=1000&max_ad_duration=15000&unviewed_position_start=1
+]]>
+</VASTAdTagURI>
+<Error>
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=error&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0&errorCode=[ERRORCODE]
+]]>
+</Error>
+<Impression>
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=impression&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Impression>
+<Creatives>
+<Creative sequence="1" id="1190201">
+<Linear skipoffset="00:00:05">
+<TrackingEvents>
+<Tracking event="creativeView">
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=creativeView&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Tracking>
+<Tracking event="start">
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=played0&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Tracking>
+<Tracking event="firstQuartile">
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=played25&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Tracking>
+<Tracking event="midpoint">
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=played50&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Tracking>
+<Tracking event="thirdQuartile">
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=played75&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Tracking>
+<Tracking event="complete">
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=played100&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Tracking>
+<Tracking event="close">
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=close&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Tracking>
+<Tracking event="pause">
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=paused&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Tracking>
+<Tracking event="mute">
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=mute&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Tracking>
+<Tracking event="unmute">
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=unmute&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Tracking>
+<Tracking event="skip">
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=skip&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Tracking>
+</TrackingEvents>
+<VideoClicks>
+<ClickThrough>
+<![CDATA[ null ]]>
+</ClickThrough>
+<ClickTracking>
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=click&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</ClickTracking>
+</VideoClicks>
+</Linear>
+</Creative>
+</Creatives>
+</Wrapper>
+</Ad>
+</VAST>
+</vmap:VASTAdData>
+</vmap:AdSource>
+</vmap:AdBreak>
+<vmap:AdBreak timeOffset="02:00:00" breakType="linear" breakId="midroll">
+<vmap:AdSource id="1190201" allowMultipleAds="false" followRedirects="true">
+<vmap:VASTAdData>
+<VAST version="2.0">
+<Ad id="1190201">
+<Wrapper>
+<AdSystem version="1.0">AdsPLAY</AdSystem>
+<AdTitle>
+<![CDATA[ FPT Play_NK Media_TVC_skip 5s_2019_SmartTV Android ]]>
+</AdTitle>
+<VASTAdTagURI>
+<![CDATA[
+https://pubads.g.doubleclick.net/gampad/live/ads?iu=/75652760/FPT&description_url=[placeholder]&env=vp&impl=s&correlator=1552547111512&tfcd=0&npa=0&gdfp_req=1&output=vast&sz=1920x1080&cust_params=age%3D18-24%2C25-34%2C35-44%26gender%3Dfemale%2Cmale&min_ad_duration=1000&max_ad_duration=15000&unviewed_position_start=1
+]]>
+</VASTAdTagURI>
+<Error>
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=error&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0&errorCode=[ERRORCODE]
+]]>
+</Error>
+<Impression>
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=impression&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Impression>
+<Creatives>
+<Creative sequence="1" id="1190201">
+<Linear skipoffset="00:00:05">
+<TrackingEvents>
+<Tracking event="creativeView">
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=creativeView&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Tracking>
+<Tracking event="start">
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=played0&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Tracking>
+<Tracking event="firstQuartile">
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=played25&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Tracking>
+<Tracking event="midpoint">
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=played50&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Tracking>
+<Tracking event="thirdQuartile">
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=played75&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Tracking>
+<Tracking event="complete">
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=played100&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Tracking>
+<Tracking event="close">
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=close&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Tracking>
+<Tracking event="pause">
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=paused&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Tracking>
+<Tracking event="mute">
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=mute&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Tracking>
+<Tracking event="unmute">
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=unmute&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Tracking>
+<Tracking event="skip">
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=skip&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Tracking>
+</TrackingEvents>
+<VideoClicks>
+<ClickThrough>
+<![CDATA[ null ]]>
+</ClickThrough>
+<ClickTracking>
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=click&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</ClickTracking>
+</VideoClicks>
+</Linear>
+</Creative>
+</Creatives>
+</Wrapper>
+</Ad>
+</VAST>
+</vmap:VASTAdData>
+</vmap:AdSource>
+</vmap:AdBreak>
+<vmap:AdBreak timeOffset="end" breakType="linear" breakId="postroll">
+<vmap:AdSource id="1190201" allowMultipleAds="false" followRedirects="true">
+<vmap:VASTAdData>
+<VAST version="2.0">
+<Ad id="1190201">
+<Wrapper>
+<AdSystem version="1.0">AdsPLAY</AdSystem>
+<AdTitle>
+<![CDATA[ FPT Play_NK Media_TVC_skip 5s_2019_SmartTV Android ]]>
+</AdTitle>
+<VASTAdTagURI>
+<![CDATA[
+https://pubads.g.doubleclick.net/gampad/live/ads?iu=/75652760/FPT&description_url=[placeholder]&env=vp&impl=s&correlator=1552547111512&tfcd=0&npa=0&gdfp_req=1&output=vast&sz=1920x1080&cust_params=age%3D18-24%2C25-34%2C35-44%26gender%3Dfemale%2Cmale&min_ad_duration=1000&max_ad_duration=15000&unviewed_position_start=1
+]]>
+</VASTAdTagURI>
+<Error>
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=error&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0&errorCode=[ERRORCODE]
+]]>
+</Error>
+<Impression>
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=impression&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Impression>
+<Creatives>
+<Creative sequence="1" id="1190201">
+<Linear skipoffset="00:00:05">
+<TrackingEvents>
+<Tracking event="creativeView">
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=creativeView&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Tracking>
+<Tracking event="start">
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=played0&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Tracking>
+<Tracking event="firstQuartile">
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=played25&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Tracking>
+<Tracking event="midpoint">
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=played50&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Tracking>
+<Tracking event="thirdQuartile">
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=played75&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Tracking>
+<Tracking event="complete">
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=played100&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Tracking>
+<Tracking event="close">
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=close&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Tracking>
+<Tracking event="pause">
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=paused&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Tracking>
+<Tracking event="mute">
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=mute&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Tracking>
+<Tracking event="unmute">
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=unmute&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Tracking>
+<Tracking event="skip">
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=skip&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</Tracking>
+</TrackingEvents>
+<VideoClicks>
+<ClickThrough>
+<![CDATA[ null ]]>
+</ClickThrough>
+<ClickTracking>
+<![CDATA[
+https://log.adsplay.net/track/videoads_v2?event=click&adId=1190201&placementId=308&campaignId=119&flightId=11902&contentId=5acd6f4f5583200884530a55&buyType=cpm&weightKey=&uuid=897fcb2a27d84ca0abd0571889e8e39b&episode=undefined&t=1552547111&isFallbackAd=0
+]]>
+</ClickTracking>
+</VideoClicks>
+</Linear>
+</Creative>
+</Creatives>
+</Wrapper>
+</Ad>
+</VAST>
+</vmap:VASTAdData>
+</vmap:AdSource>
+</vmap:AdBreak>
+</vmap:VMAP>
