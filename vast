@@ -1,29 +1,114 @@
-<vmap:VMAP xmlns:vmap="http://www.iab.net/videosuite/vmap" version="1.0">
-<vmap:AdBreak timeOffset="00:00:15.000" breakType="linear" breakId="midroll-1">
-<vmap:AdSource id="midroll-1-ad-1" allowMultipleAds="false" followRedirects="true">
-<vmap:AdTagURI templateType="vast3">
+<VAST version="3.0">
+<Ad id="800502">
+<InLine>
+<AdSystem version="1.0">AdsPLAY</AdSystem>
+<AdTitle>
+<![CDATA[ clone_ad ]]>
+</AdTitle>
+<Description>
+<![CDATA[ test ]]>
+</Description>
+<Error>
 <![CDATA[
-https://pubads.g.doubleclick.net/gampad/ads?slotname=/124319096/external/ad_rule_samples&sz=640x480&ciu_szs=300x250&unviewed_position_start=1&output=xml_vast3&impl=s&env=vp&gdfp_req=1&ad_rule=0&cue=15000&vad_type=linear&vpos=midroll&pod=2&mridx=1&ppos=1&lip=true&min_ad_duration=0&max_ad_duration=30000&vrid=6256&cust_params=deployment%3Ddevsite%26sample_ar%3Dpremidpost&url=https://developers.google.com/interactive-media-ads/docs/sdks/html5/tags&video_doc_id=short_onecue&cmsid=496&kfa=0&tfcd=0
+https://log.adsplay.net/tracking/v2?uid=c1aaae58-f725-4443-04ea-a3a67f7da0d2&pid=306&evt=error&waid=&chid=&cid=80&adid=800502&fid=8005&caid=&ip=118.68.168.191&ua=Mozilla%2F5.0+%28Macintosh%3B+Intel+Mac+OS+X+10_14_5%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F75.0.3770.100+Safari%2F537.36&js=1&plw=658&plh=370&scw=789&sch=848&cb=1562821027886&weightKey=w_800502&buyType=cpm&pdata=pd_c1aaae58-f725-4443-04ea-a3a67f7da0d2_306_8005_1562821027886&midValue=00:00:30&purl=https%3A%2F%2Ffptplay.vn%2Fxem-video%2Fcham-vao-tim-em-touch-your-heart-5c4d6d0bfa9c5e094ea7ac97.html&rurl=&isFallbackAd=0&errorCode=[ERRORCODE]
 ]]>
-</vmap:AdTagURI>
-</vmap:AdSource>
-</vmap:AdBreak>
-<vmap:AdBreak timeOffset="00:00:20.000" breakType="linear" breakId="midroll-1">
-<vmap:AdSource id="midroll-1-ad-1" allowMultipleAds="false" followRedirects="true">
-<vmap:AdTagURI templateType="vast3">
+</Error>
+<Error>
 <![CDATA[
-https://pubads.g.doubleclick.net/gampad/ads?slotname=/124319096/external/ad_rule_samples&sz=640x480&ciu_szs=300x250&unviewed_position_start=1&output=xml_vast3&impl=s&env=vp&gdfp_req=1&ad_rule=0&cue=15000&vad_type=linear&vpos=midroll&pod=2&mridx=1&ppos=1&lip=true&min_ad_duration=0&max_ad_duration=30000&vrid=6256&cust_params=deployment%3Ddevsite%26sample_ar%3Dpremidpost&url=https://developers.google.com/interactive-media-ads/docs/sdks/html5/tags&video_doc_id=short_onecue&cmsid=496&kfa=0&tfcd=0
+https://log.adsplay.net/tracking/v2?uid=c1aaae58-f725-4443-04ea-a3a67f7da0d2&pid=306&evt=request&waid=&chid=&cid=80&adid=800502&fid=8005&caid=&ip=118.68.168.191&ua=Mozilla%2F5.0+%28Macintosh%3B+Intel+Mac+OS+X+10_14_5%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F75.0.3770.100+Safari%2F537.36&js=1&plw=658&plh=370&scw=789&sch=848&cb=1562821027886&weightKey=w_800502&buyType=cpm&pdata=pd_c1aaae58-f725-4443-04ea-a3a67f7da0d2_306_8005_1562821027886&midValue=00:00:30&purl=https%3A%2F%2Ffptplay.vn%2Fxem-video%2Fcham-vao-tim-em-touch-your-heart-5c4d6d0bfa9c5e094ea7ac97.html&rurl=&isFallbackAd=0&errorCode=[ERRORCODE]
 ]]>
-</vmap:AdTagURI>
-</vmap:AdSource>
-</vmap:AdBreak>
-<vmap:AdBreak timeOffset="end" breakType="linear" breakId="postroll">
-<vmap:AdSource id="postroll-ad-1" allowMultipleAds="false" followRedirects="true">
-<vmap:AdTagURI templateType="vast3">
+</Error>
+<Impression>
 <![CDATA[
-https://pubads.g.doubleclick.net/gampad/ads?slotname=/124319096/external/ad_rule_samples&sz=640x480&ciu_szs=300x250&unviewed_position_start=1&output=xml_vast3&impl=s&env=vp&gdfp_req=1&ad_rule=0&vad_type=linear&vpos=postroll&pod=3&ppos=1&lip=true&min_ad_duration=0&max_ad_duration=30000&vrid=6256&cust_params=deployment%3Ddevsite%26sample_ar%3Dpremidpost&url=https://developers.google.com/interactive-media-ads/docs/sdks/html5/tags&video_doc_id=short_onecue&cmsid=496&kfa=0&tfcd=0
+https://log.adsplay.net/tracking/v2?uid=c1aaae58-f725-4443-04ea-a3a67f7da0d2&pid=306&evt=impression&waid=&chid=&cid=80&adid=800502&fid=8005&caid=&ip=118.68.168.191&ua=Mozilla%2F5.0+%28Macintosh%3B+Intel+Mac+OS+X+10_14_5%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F75.0.3770.100+Safari%2F537.36&js=1&plw=658&plh=370&scw=789&sch=848&cb=1562821027886&weightKey=w_800502&buyType=cpm&pdata=pd_c1aaae58-f725-4443-04ea-a3a67f7da0d2_306_8005_1562821027886&midValue=00:00:30&purl=https%3A%2F%2Ffptplay.vn%2Fxem-video%2Fcham-vao-tim-em-touch-your-heart-5c4d6d0bfa9c5e094ea7ac97.html&rurl=&isFallbackAd=0
 ]]>
-</vmap:AdTagURI>
-</vmap:AdSource>
-</vmap:AdBreak>
-</vmap:VMAP>
+</Impression>
+<Impression>
+<![CDATA[
+https://log.adsplay.net/tracking/v2?uid=c1aaae58-f725-4443-04ea-a3a67f7da0d2&pid=306&evt=request&waid=&chid=&cid=80&adid=800502&fid=8005&caid=&ip=118.68.168.191&ua=Mozilla%2F5.0+%28Macintosh%3B+Intel+Mac+OS+X+10_14_5%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F75.0.3770.100+Safari%2F537.36&js=1&plw=658&plh=370&scw=789&sch=848&cb=1562821027886&weightKey=w_800502&buyType=cpm&pdata=pd_c1aaae58-f725-4443-04ea-a3a67f7da0d2_306_8005_1562821027886&midValue=00:00:30&purl=https%3A%2F%2Ffptplay.vn%2Fxem-video%2Fcham-vao-tim-em-touch-your-heart-5c4d6d0bfa9c5e094ea7ac97.html&rurl=&isFallbackAd=0
+]]>
+</Impression>
+<Creatives>
+<Creative sequence="1" id="800502">
+<Linear skipoffset="00:00:05">
+<Duration>00:00:10</Duration>
+<TrackingEvents>
+<Tracking event="creativeView">
+<![CDATA[
+https://log.adsplay.net/tracking/v2?uid=c1aaae58-f725-4443-04ea-a3a67f7da0d2&pid=306&evt=creativeView&waid=&chid=&cid=80&adid=800502&fid=8005&caid=&ip=118.68.168.191&ua=Mozilla%2F5.0+%28Macintosh%3B+Intel+Mac+OS+X+10_14_5%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F75.0.3770.100+Safari%2F537.36&js=1&plw=658&plh=370&scw=789&sch=848&cb=1562821027886&weightKey=w_800502&buyType=cpm&pdata=pd_c1aaae58-f725-4443-04ea-a3a67f7da0d2_306_8005_1562821027886&midValue=00:00:30&purl=https%3A%2F%2Ffptplay.vn%2Fxem-video%2Fcham-vao-tim-em-touch-your-heart-5c4d6d0bfa9c5e094ea7ac97.html&rurl=
+]]>
+</Tracking>
+<Tracking event="start">
+<![CDATA[
+https://log.adsplay.net/tracking/v2?uid=c1aaae58-f725-4443-04ea-a3a67f7da0d2&pid=306&evt=played0&waid=&chid=&cid=80&adid=800502&fid=8005&caid=&ip=118.68.168.191&ua=Mozilla%2F5.0+%28Macintosh%3B+Intel+Mac+OS+X+10_14_5%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F75.0.3770.100+Safari%2F537.36&js=1&plw=658&plh=370&scw=789&sch=848&cb=1562821027886&weightKey=w_800502&buyType=cpm&pdata=pd_c1aaae58-f725-4443-04ea-a3a67f7da0d2_306_8005_1562821027886&midValue=00:00:30&purl=https%3A%2F%2Ffptplay.vn%2Fxem-video%2Fcham-vao-tim-em-touch-your-heart-5c4d6d0bfa9c5e094ea7ac97.html&rurl=
+]]>
+</Tracking>
+<Tracking event="firstQuartile">
+<![CDATA[
+https://log.adsplay.net/tracking/v2?uid=c1aaae58-f725-4443-04ea-a3a67f7da0d2&pid=306&evt=played25&waid=&chid=&cid=80&adid=800502&fid=8005&caid=&ip=118.68.168.191&ua=Mozilla%2F5.0+%28Macintosh%3B+Intel+Mac+OS+X+10_14_5%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F75.0.3770.100+Safari%2F537.36&js=1&plw=658&plh=370&scw=789&sch=848&cb=1562821027886&weightKey=w_800502&buyType=cpm&pdata=pd_c1aaae58-f725-4443-04ea-a3a67f7da0d2_306_8005_1562821027886&midValue=00:00:30&purl=https%3A%2F%2Ffptplay.vn%2Fxem-video%2Fcham-vao-tim-em-touch-your-heart-5c4d6d0bfa9c5e094ea7ac97.html&rurl=
+]]>
+</Tracking>
+<Tracking event="midpoint">
+<![CDATA[
+https://log.adsplay.net/tracking/v2?uid=c1aaae58-f725-4443-04ea-a3a67f7da0d2&pid=306&evt=played50&waid=&chid=&cid=80&adid=800502&fid=8005&caid=&ip=118.68.168.191&ua=Mozilla%2F5.0+%28Macintosh%3B+Intel+Mac+OS+X+10_14_5%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F75.0.3770.100+Safari%2F537.36&js=1&plw=658&plh=370&scw=789&sch=848&cb=1562821027886&weightKey=w_800502&buyType=cpm&pdata=pd_c1aaae58-f725-4443-04ea-a3a67f7da0d2_306_8005_1562821027886&midValue=00:00:30&purl=https%3A%2F%2Ffptplay.vn%2Fxem-video%2Fcham-vao-tim-em-touch-your-heart-5c4d6d0bfa9c5e094ea7ac97.html&rurl=
+]]>
+</Tracking>
+<Tracking event="thirdQuartile">
+<![CDATA[
+https://log.adsplay.net/tracking/v2?uid=c1aaae58-f725-4443-04ea-a3a67f7da0d2&pid=306&evt=played75&waid=&chid=&cid=80&adid=800502&fid=8005&caid=&ip=118.68.168.191&ua=Mozilla%2F5.0+%28Macintosh%3B+Intel+Mac+OS+X+10_14_5%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F75.0.3770.100+Safari%2F537.36&js=1&plw=658&plh=370&scw=789&sch=848&cb=1562821027886&weightKey=w_800502&buyType=cpm&pdata=pd_c1aaae58-f725-4443-04ea-a3a67f7da0d2_306_8005_1562821027886&midValue=00:00:30&purl=https%3A%2F%2Ffptplay.vn%2Fxem-video%2Fcham-vao-tim-em-touch-your-heart-5c4d6d0bfa9c5e094ea7ac97.html&rurl=
+]]>
+</Tracking>
+<Tracking event="complete">
+<![CDATA[
+https://log.adsplay.net/tracking/v2?uid=c1aaae58-f725-4443-04ea-a3a67f7da0d2&pid=306&evt=played100&waid=&chid=&cid=80&adid=800502&fid=8005&caid=&ip=118.68.168.191&ua=Mozilla%2F5.0+%28Macintosh%3B+Intel+Mac+OS+X+10_14_5%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F75.0.3770.100+Safari%2F537.36&js=1&plw=658&plh=370&scw=789&sch=848&cb=1562821027886&weightKey=w_800502&buyType=cpm&pdata=pd_c1aaae58-f725-4443-04ea-a3a67f7da0d2_306_8005_1562821027886&midValue=00:00:30&purl=https%3A%2F%2Ffptplay.vn%2Fxem-video%2Fcham-vao-tim-em-touch-your-heart-5c4d6d0bfa9c5e094ea7ac97.html&rurl=
+]]>
+</Tracking>
+<Tracking event="close">
+<![CDATA[
+https://log.adsplay.net/tracking/v2?uid=c1aaae58-f725-4443-04ea-a3a67f7da0d2&pid=306&evt=close&waid=&chid=&cid=80&adid=800502&fid=8005&caid=&ip=118.68.168.191&ua=Mozilla%2F5.0+%28Macintosh%3B+Intel+Mac+OS+X+10_14_5%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F75.0.3770.100+Safari%2F537.36&js=1&plw=658&plh=370&scw=789&sch=848&cb=1562821027886&weightKey=w_800502&buyType=cpm&pdata=pd_c1aaae58-f725-4443-04ea-a3a67f7da0d2_306_8005_1562821027886&midValue=00:00:30&purl=https%3A%2F%2Ffptplay.vn%2Fxem-video%2Fcham-vao-tim-em-touch-your-heart-5c4d6d0bfa9c5e094ea7ac97.html&rurl=
+]]>
+</Tracking>
+<Tracking event="pause">
+<![CDATA[
+https://log.adsplay.net/tracking/v2?uid=c1aaae58-f725-4443-04ea-a3a67f7da0d2&pid=306&evt=paused&waid=&chid=&cid=80&adid=800502&fid=8005&caid=&ip=118.68.168.191&ua=Mozilla%2F5.0+%28Macintosh%3B+Intel+Mac+OS+X+10_14_5%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F75.0.3770.100+Safari%2F537.36&js=1&plw=658&plh=370&scw=789&sch=848&cb=1562821027886&weightKey=w_800502&buyType=cpm&pdata=pd_c1aaae58-f725-4443-04ea-a3a67f7da0d2_306_8005_1562821027886&midValue=00:00:30&purl=https%3A%2F%2Ffptplay.vn%2Fxem-video%2Fcham-vao-tim-em-touch-your-heart-5c4d6d0bfa9c5e094ea7ac97.html&rurl=
+]]>
+</Tracking>
+<Tracking event="mute">
+<![CDATA[
+https://log.adsplay.net/tracking/v2?uid=c1aaae58-f725-4443-04ea-a3a67f7da0d2&pid=306&evt=mute&waid=&chid=&cid=80&adid=800502&fid=8005&caid=&ip=118.68.168.191&ua=Mozilla%2F5.0+%28Macintosh%3B+Intel+Mac+OS+X+10_14_5%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F75.0.3770.100+Safari%2F537.36&js=1&plw=658&plh=370&scw=789&sch=848&cb=1562821027886&weightKey=w_800502&buyType=cpm&pdata=pd_c1aaae58-f725-4443-04ea-a3a67f7da0d2_306_8005_1562821027886&midValue=00:00:30&purl=https%3A%2F%2Ffptplay.vn%2Fxem-video%2Fcham-vao-tim-em-touch-your-heart-5c4d6d0bfa9c5e094ea7ac97.html&rurl=
+]]>
+</Tracking>
+<Tracking event="unmute">
+<![CDATA[
+https://log.adsplay.net/tracking/v2?uid=c1aaae58-f725-4443-04ea-a3a67f7da0d2&pid=306&evt=unmute&waid=&chid=&cid=80&adid=800502&fid=8005&caid=&ip=118.68.168.191&ua=Mozilla%2F5.0+%28Macintosh%3B+Intel+Mac+OS+X+10_14_5%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F75.0.3770.100+Safari%2F537.36&js=1&plw=658&plh=370&scw=789&sch=848&cb=1562821027886&weightKey=w_800502&buyType=cpm&pdata=pd_c1aaae58-f725-4443-04ea-a3a67f7da0d2_306_8005_1562821027886&midValue=00:00:30&purl=https%3A%2F%2Ffptplay.vn%2Fxem-video%2Fcham-vao-tim-em-touch-your-heart-5c4d6d0bfa9c5e094ea7ac97.html&rurl=
+]]>
+</Tracking>
+<Tracking event="skip">
+<![CDATA[
+https://log.adsplay.net/tracking/v2?uid=c1aaae58-f725-4443-04ea-a3a67f7da0d2&pid=306&evt=skip&waid=&chid=&cid=80&adid=800502&fid=8005&caid=&ip=118.68.168.191&ua=Mozilla%2F5.0+%28Macintosh%3B+Intel+Mac+OS+X+10_14_5%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F75.0.3770.100+Safari%2F537.36&js=1&plw=658&plh=370&scw=789&sch=848&cb=1562821027886&weightKey=w_800502&buyType=cpm&pdata=pd_c1aaae58-f725-4443-04ea-a3a67f7da0d2_306_8005_1562821027886&midValue=00:00:30&purl=https%3A%2F%2Ffptplay.vn%2Fxem-video%2Fcham-vao-tim-em-touch-your-heart-5c4d6d0bfa9c5e094ea7ac97.html&rurl=
+]]>
+</Tracking>
+</TrackingEvents>
+<VideoClicks>
+<ClickThrough>
+<![CDATA[ https://fptplay.vn ]]>
+</ClickThrough>
+<ClickTracking>
+<![CDATA[
+https://log.adsplay.net/tracking/v2?uid=c1aaae58-f725-4443-04ea-a3a67f7da0d2&pid=306&evt=click&waid=&chid=&cid=80&adid=800502&fid=8005&caid=&ip=118.68.168.191&ua=Mozilla%2F5.0+%28Macintosh%3B+Intel+Mac+OS+X+10_14_5%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F75.0.3770.100+Safari%2F537.36&js=1&plw=658&plh=370&scw=789&sch=848&cb=1562821027886&weightKey=w_800502&buyType=cpm&pdata=pd_c1aaae58-f725-4443-04ea-a3a67f7da0d2_306_8005_1562821027886&midValue=00:00:30&purl=https%3A%2F%2Ffptplay.vn%2Fxem-video%2Fcham-vao-tim-em-touch-your-heart-5c4d6d0bfa9c5e094ea7ac97.html&rurl=&isFallbackAd=0&imaCB=[TIMESTAMP]
+]]>
+</ClickTracking>
+</VideoClicks>
+<MediaFiles>
+<MediaFile height="360" width="640" bitrate="500" type="video/mp4" delivery="progressive">
+<![CDATA[
+https://ads-cdn.fptplay.net/static/banner/2019/07/f02bb21f7684eb632cce181dc862efaa_8801.mp4
+]]>
+</MediaFile>
+</MediaFiles>
+</Linear>
+</Creative>
+</Creatives>
+</InLine>
+</Ad>
+</VAST>
