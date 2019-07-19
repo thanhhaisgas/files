@@ -1,0 +1,25 @@
+<VAST xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vast_2.0.1-creativeView.xsd" version="2.0">
+<Ad id="moat_ad">
+<InLine>
+<AdSystem>2.0</AdSystem>
+<AdTitle>
+Sanofi_-_A23B2C11_-_Lactacyd_Babywash_Activation_2019-28509588
+</AdTitle>
+<Impression/>
+<Creatives>
+<Creative>
+<Linear>
+<Duration>00:00:15</Duration>
+<MediaFiles>
+<MediaFile type="application/javascript" apiFramework="VPAID" height="1080" width="1920" delivery="progressive">
+<![CDATA[
+https://svastx.moatads.com/mindsharevnsanofisizmekvpaid575112420072/moatwrapper.js#vast=https%3a%2f%2fbs.serving-sys.com%2fServing%3fcn%3ddisplay%26c%3d23%26pl%3dVAST%26pli%3d28509588%26PluID%3d64%26pos%3d3596%26ord%3d731162775%26cim%3d1&level1=974886&level2=Ambient%20Network%20VN%20-%20RON&level3=28509588&level4=vpaid&slicer1=undefined&slicer2=undefined&pcode=mindsharevnsanofisizmekvpaid575112420072&spvb=1&zMoatADV=Sanofi_Vietnam&zMoatABH=0
+]]>
+</MediaFile>
+</MediaFiles>
+</Linear>
+</Creative>
+</Creatives>
+</InLine>
+</Ad>
+</VAST>
